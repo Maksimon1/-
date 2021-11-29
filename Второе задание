@@ -1,0 +1,7 @@
+import time
+def was_trinken ():
+    string_name=was_trinken.__name__
+    print("Была вызвана функция",string_name)
+    return 0
+was_trinken()
+print(time.perf_counter())
