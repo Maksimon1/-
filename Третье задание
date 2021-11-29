@@ -1,0 +1,13 @@
+import time
+def was_trinken (func):
+    string_name=was_trinken.__name__
+    print("Была вызвана функция",string_name)
+    
+def time_vipolneniya(func):
+    print (time.perf_counter())
+
+@was_trinken
+@time_vipolneniya
+def pusk(func):
+    return()
+    
